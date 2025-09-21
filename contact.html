@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Savanna Plate | Reservations & Location</title>
+    <meta name="description" content="Contact Savanna Plate restaurant in Nairobi. Make reservations, find our location, or get in touch for authentic Kenyan cuisine.">
+    <meta name="keywords" content="Savanna Plate contact, Nairobi restaurant reservations, Kenyan restaurant location">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <i class="fas fa-utensils"></i>
+                        <span>Savanna Plate</span>
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="menu.html" class="nav-link">Menu</a>
+                    <a href="contact.html" class="nav-link active">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p>Get in touch or make a reservation for an authentic Kenyan dining experience</p>
+            </div>
+        </section>
+
+        <!-- Contact Info -->
+        <section class="contact-info">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Westlands Business District<br>
+                        Waiyaki Way, Nairobi, Kenya<br>
+                        Near Sarit Centre</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <p><a href="tel:+254718230650">+254 718 230 650</a></p>
+                        <p>Available 24/7 for reservations</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p><a href="mailto:savanna@gmail.com">savanna@gmail.com</a></p>
+                        <p>We respond within 2 hours</p>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Hours</h3>
+                        <p>Open 24/7<br>
+                        Kitchen: Always Open<br>
+                        Delivery: 6 AM - 11 PM</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form and Map -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-content">
+                    <!-- Reservation Form -->
+                    <div class="contact-form-container">
+                        <h2>Make a Reservation</h2>
+                        <p>Book your table for an authentic Kenyan dining experience</p>
+                        
+                        <form class="contact-form" id="reservationForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required>
+                                <span class="error-message" id="nameError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                                <span class="error-message" id="emailError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                                <span class="error-message" id="phoneError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="date">Reservation Date *</label>
+                                <input type="date" id="date" name="date" required>
+                                <span class="error-message" id="dateError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="time">Preferred Time *</label>
+                                <select id="time" name="time" required>
+                                    <option value="">Select Time</option>
+                                    <option value="06:00">6:00 AM</option>
+                                    <option value="07:00">7:00 AM</option>
+                                    <option value="08:00">8:00 AM</option>
+                                    <option value="09:00">9:00 AM</option>
+                                    <option value="10:00">10:00 AM</option>
+                                    <option value="11:00">11:00 AM</option>
+                                    <option value="12:00">12:00 PM</option>
+                                    <option value="13:00">1:00 PM</option>
+                                    <option value="14:00">2:00 PM</option>
+                                    <option value="15:00">3:00 PM</option>
+                                    <option value="16:00">4:00 PM</option>
+                                    <option value="17:00">5:00 PM</option>
+                                    <option value="18:00">6:00 PM</option>
+                                    <option value="19:00">7:00 PM</option>
+                                    <option value="20:00">8:00 PM</option>
+                                    <option value="21:00">9:00 PM</option>
+                                    <option value="22:00">10:00 PM</option>
+                                    <option value="23:00">11:00 PM</option>
+                                </select>
+                                <span class="error-message" id="timeError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="partySize">Party Size *</label>
+                                <select id="partySize" name="partySize" required>
+                                    <option value="">Select Party Size</option>
+                                    <option value="1">1 Person</option>
+                                    <option value="2">2 People</option>
+                                    <option value="3">3 People</option>
+                                    <option value="4">4 People</option>
+                                    <option value="5">5 People</option>
+                                    <option value="6">6 People</option>
+                                    <option value="7">7 People</option>
+                                    <option value="8">8 People</option>
+                                    <option value="9">9 People</option>
+                                    <option value="10">10 People</option>
+                                    <option value="11">11 People</option>
+                                    <option value="12">12 People</option>
+                                    <option value="13">13 People</option>
+                                    <option value="14">14 People</option>
+                                    <option value="15">15 People</option>
+                                    <option value="16">16 People</option>
+                                    <option value="17">17 People</option>
+                                    <option value="18">18 People</option>
+                                    <option value="19">19 People</option>
+                                    <option value="20">20 People</option>
+                                </select>
+                                <span class="error-message" id="partySizeError"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="specialRequests">Special Requests</label>
+                                <textarea id="specialRequests" name="specialRequests" rows="4" placeholder="Any dietary restrictions, special occasions, or preferences..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-calendar-check"></i> Make Reservation
+                            </button>
+                        </form>
+
+                        <!-- Success/Error Messages -->
+                        <div class="form-message" id="formMessage"></div>
+                    </div>
+
+                    <!-- Map and Additional Info -->
+                    <div class="contact-details">
+                        <div class="map-container">
+                            <h3>Find Us</h3>
+                            <div class="map-placeholder">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <p>Interactive Map</p>
+                                <small>Westlands, Nairobi, Kenya</small>
+                            </div>
+                        </div>
+
+                        <div class="additional-info">
+                            <h3>Additional Information</h3>
+                            <div class="info-item">
+                                <i class="fas fa-parking"></i>
+                                <div>
+                                    <h4>Free Parking</h4>
+                                    <p>Complimentary parking available for all guests</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-wheelchair"></i>
+                                <div>
+                                    <h4>Wheelchair Accessible</h4>
+                                    <p>Our restaurant is fully accessible to all guests</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-wifi"></i>
+                                <div>
+                                    <h4>Free WiFi</h4>
+                                    <p>Complimentary high-speed internet for all guests</p>
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-credit-card"></i>
+                                <div>
+                                    <h4>Payment Options</h4>
+                                    <p>We accept cash, cards, and mobile payments</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-section">
+                            <h3>Follow Us</h3>
+                            <p>Stay updated with our latest news and special offers</p>
+                            <div class="social-links">
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-facebook"></i>
+                                    <span>Facebook</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-twitter"></i>
+                                    <span>Twitter</span>
+                                </a>
+                                <a href="#" class="social-link">
+                                    <i class="fab fa-whatsapp"></i>
+                                    <span>WhatsApp</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do I need to make a reservation?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>While walk-ins are welcome, we recommend making a reservation, especially for dinner and weekends, to ensure you get a table at your preferred time.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What are your operating hours?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We're open 24/7! Our kitchen is always open, and we serve food around the clock. Delivery is available from 6 AM to 11 PM.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you offer delivery?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! We offer delivery within Nairobi from 6 AM to 11 PM. Call us at +254 718 230 650 to place your order.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do you accommodate dietary restrictions?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Absolutely! We can accommodate various dietary needs including vegetarian, vegan, and gluten-free options. Please mention any restrictions when making your reservation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Savanna Plate</span>
+                    </div>
+                    <p>Bringing authentic Kenyan flavors to Nairobi since 2018. Experience the taste of home with every bite.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +254 718 230 650</li>
+                        <li><i class="fas fa-envelope"></i> savanna@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Westlands, Nairobi, Kenya</li>
+                        <li><i class="fas fa-clock"></i> Open 24/7</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Operating Hours</h4>
+                    <ul>
+                        <li>Monday - Sunday</li>
+                        <li>24 Hours Daily</li>
+                        <li>Kitchen: Always Open</li>
+                        <li>Delivery: 6 AM - 11 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Savanna Plate. All rights reserved. | Authentic Kenyan Cuisine in Nairobi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

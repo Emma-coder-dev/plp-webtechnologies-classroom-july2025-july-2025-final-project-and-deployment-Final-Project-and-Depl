@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Savanna Plate | Authentic Kenyan Cuisine</title>
+    <meta name="description" content="Explore our authentic Kenyan menu featuring Nyama Choma, Ugali, Pilau, and traditional African dishes. Fresh ingredients, traditional recipes.">
+    <meta name="keywords" content="Kenyan menu, African food, Nyama Choma, Ugali, Pilau, Nairobi restaurant menu">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <i class="fas fa-utensils"></i>
+                        <span>Savanna Plate</span>
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="menu.html" class="nav-link active">Menu</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Our Menu</h1>
+                <p>Authentic Kenyan flavors made with love and tradition</p>
+            </div>
+        </section>
+
+        <!-- Menu Filter -->
+        <section class="menu-filter">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="main">Main Dishes</button>
+                    <button class="filter-btn" data-filter="sides">Sides</button>
+                    <button class="filter-btn" data-filter="beverages">Beverages</button>
+                    <button class="filter-btn" data-filter="desserts">Desserts</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Items -->
+        <section class="menu-items">
+            <div class="container">
+                <!-- Main Dishes -->
+                <div class="menu-category" data-category="main">
+                    <h2 class="category-title">Main Dishes</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/nyama-choma.jpg" alt="Nyama Choma" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-drumstick-bite"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Nyama Choma</h3>
+                                    <span class="price">KES 800</span>
+                                </div>
+                                <p>Grilled meat marinated in traditional Kenyan spices, served with kachumbari salad</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Popular</span>
+                                    <span class="tag">Spicy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/ugali-sukuma.jpg" alt="Ugali with Sukuma Wiki" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-bread-slice"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Ugali with Sukuma Wiki</h3>
+                                    <span class="price">KES 350</span>
+                                </div>
+                                <p>Traditional maize meal served with collard greens and your choice of protein</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Traditional</span>
+                                    <span class="tag">Healthy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/pilau-rice.jpg" alt="Pilau Rice" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Pilau Rice</h3>
+                                    <span class="price">KES 500</span>
+                                </div>
+                                <p>Fragrant spiced rice cooked with meat, onions, and traditional spices</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Aromatic</span>
+                                    <span class="tag">Filling</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/githeri.jpg" alt="Githeri" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Githeri</h3>
+                                    <span class="price">KES 300</span>
+                                </div>
+                                <p>Traditional mix of maize and beans, slow-cooked to perfection</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Traditional</span>
+                                    <span class="tag">Vegetarian</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/chapati-beef.jpg" alt="Chapati with Beef Stew" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-cookie-bite"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Chapati with Beef Stew</h3>
+                                    <span class="price">KES 450</span>
+                                </div>
+                                <p>Soft, flaky flatbread served with rich, flavorful beef stew</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Comfort Food</span>
+                                    <span class="tag">Popular</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/tilapia-fish.jpg" alt="Tilapia Fish with Rice" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-fish"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Tilapia Fish with Rice</h3>
+                                    <span class="price">KES 600</span>
+                                </div>
+                                <p>Fresh tilapia fish grilled to perfection, served with steamed rice and vegetables</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Fresh</span>
+                                    <span class="tag">Healthy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/chicken-curry.jpg" alt="Chicken Curry" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-drumstick-bite"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Chicken Curry</h3>
+                                    <span class="price">KES 550</span>
+                                </div>
+                                <p>Tender chicken cooked in aromatic curry sauce with coconut milk</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Creamy</span>
+                                    <span class="tag">Spicy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/matoke-meat.jpg" alt="matoke with meat" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-apple-alt"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Matoke with Meat</h3>
+                                    <span class="price">KES 400</span>
+                                </div>
+                                <p>Green bananas cooked with tender meat in a rich, flavorful sauce</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Traditional</span>
+                                    <span class="tag">Unique</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Side Dishes -->
+                <div class="menu-category" data-category="sides">
+                    <h2 class="category-title">Side Dishes</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/mukimo.jpg" alt="Mukimo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-seedling"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Mukimo</h3>
+                                    <span class="price">KES 250</span>
+                                </div>
+                                <p>Mashed potatoes mixed with greens, corn, and beans</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Traditional</span>
+                                    <span class="tag">Healthy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/samosas.jpg" alt="Samosas" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-cookie"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Samosas</h3>
+                                    <span class="price">KES 150</span>
+                                </div>
+                                <p>Crispy triangular pastries filled with spiced meat or vegetables</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Crispy</span>
+                                    <span class="tag">Snack</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/mandazi.jpg" alt="Mandazi" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-bread-slice"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Mandazi</h3>
+                                    <span class="price">KES 100</span>
+                                </div>
+                                <p>Sweet, fluffy Kenyan donuts perfect for breakfast or tea time</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Sweet</span>
+                                    <span class="tag">Traditional</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/bhajia.jpg" alt="Bhajia" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                        <i class="fas fa-french-fries"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Bhajia</h3>
+                                    <span class="price">KES 200</span>
+                                </div>
+                                <p>Spiced potato fritters, crispy on the outside and soft inside</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Crispy</span>
+                                    <span class="tag">Spicy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beverages -->
+                <div class="menu-category" data-category="beverages">
+                    <h2 class="category-title">Beverages</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/tusker-beer.jpg" alt="Tusker Beer" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-beer"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Tusker Beer</h3>
+                                    <span class="price">KES 200</span>
+                                </div>
+                                <p>Kenya's most popular beer, perfect with Nyama Choma</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Local</span>
+                                    <span class="tag">Popular</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/chai.jpg" alt="Chai" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-coffee"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Chai (Tea)</h3>
+                                    <span class="price">KES 80</span>
+                                </div>
+                                <p>Traditional Kenyan tea with milk and spices</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Traditional</span>
+                                    <span class="tag">Warm</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/fresh-passion-juice.jpg" alt="Fresh Passion Juice" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-glass-whiskey"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Fresh Passion Juice</h3>
+                                    <span class="price">KES 150</span>
+                                </div>
+                                <p>Freshly squeezed passion fruit juice, sweet and refreshing</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Fresh</span>
+                                    <span class="tag">Healthy</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/muratina.jpg" alt="Muratina" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-wine-bottle"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Muratina</h3>
+                                    <span class="price">KES 300</span>
+                                </div>
+                                <p>Traditional Kenyan alcoholic beverage made from honey and tree bark</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Traditional</span>
+                                    <span class="tag">Unique</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/soda.jpg" alt="Soda" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-glass-whiskey"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Soda</h3>
+                                    <span class="price">KES 100</span>
+                                </div>
+                                <p>Various soft drinks including Coca-Cola, Fanta, and Sprite</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Cold</span>
+                                    <span class="tag">Refreshing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-category" data-category="desserts">
+                    <h2 class="category-title">Desserts</h2>
+                    <div class="menu-grid">
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/mahamri.jpg" alt="Mahamri" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-cookie-bite"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Mahamri</h3>
+                                    <span class="price">KES 120</span>
+                                </div>
+                                <p>Sweet, cardamom-flavored triangular pastries, perfect with tea</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Sweet</span>
+                                    <span class="tag">Traditional</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="menu-item">
+                            <div class="menu-item-image">
+                                <img src="images/fresh-fruits-platter.jpg" alt="Fresh Fruits Platter" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                <div class="menu-fallback" style="display: none;">
+                                    <i class="fas fa-apple-alt"></i>
+                                </div>
+                            </div>
+                            <div class="menu-item-content">
+                                <div class="menu-item-header">
+                                    <h3>Fresh Fruits Platter</h3>
+                                    <span class="price">KES 250</span>
+                                </div>
+                                <p>Seasonal fresh fruits including mango, pineapple, papaya, and passion fruit</p>
+                                <div class="menu-item-tags">
+                                    <span class="tag">Fresh</span>
+                                    <span class="tag">Healthy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu CTA -->
+        <section class="menu-cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2>Ready to Order?</h2>
+                    <p>Call us for takeaway or visit us for a full dining experience</p>
+                    <div class="cta-buttons">
+                        <a href="tel:+254718230650" class="btn btn-primary">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary">
+                            <i class="fas fa-calendar"></i> Make Reservation
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Savanna Plate</span>
+                    </div>
+                    <p>Bringing authentic Kenyan flavors to Nairobi since 2018. Experience the taste of home with every bite.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +254 718 230 650</li>
+                        <li><i class="fas fa-envelope"></i> savanna@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Westlands, Nairobi, Kenya</li>
+                        <li><i class="fas fa-clock"></i> Open 24/7</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Operating Hours</h4>
+                    <ul>
+                        <li>Monday - Sunday</li>
+                        <li>24 Hours Daily</li>
+                        <li>Kitchen: Always Open</li>
+                        <li>Delivery: 6 AM - 11 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Savanna Plate. All rights reserved. | Authentic Kenyan Cuisine in Nairobi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

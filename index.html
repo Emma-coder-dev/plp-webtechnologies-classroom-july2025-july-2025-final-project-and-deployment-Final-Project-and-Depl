@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Savanna Plate - Authentic Kenyan & African Cuisine | Nairobi</title>
+    <meta name="description" content="Experience authentic Kenyan and African cuisine at Savanna Plate in Nairobi. Traditional flavors, locally sourced ingredients, and warm hospitality.">
+    <meta name="keywords" content="Kenyan food, African cuisine, Nairobi restaurant, Nyama Choma, Ugali, traditional food">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <i class="fas fa-utensils"></i>
+                        <span>Savanna Plate</span>
+                    </a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="index.html" class="nav-link active">Home</a>
+                    <a href="menu.html" class="nav-link">Menu</a>
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-slider" id="hero-slider">
+                <div class="slide active">
+                    <div class="slide-content">
+                        <img src="images/authentic-kenyan-cuisine.jpg" alt="Authentic Kenyan Cuisine" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">                        
+                            <i class="fas fa-drumstick-bite"></i>
+                        </div>
+                        <div class="slide-text">
+                            <h1>Authentic Kenyan Cuisine</h1>
+                            <p>Experience the rich flavors of Kenya with our traditional dishes made from locally sourced ingredients</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <img src="images/fresh-from-the-savanna.jpg" alt="Fresh from the Savanna" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">                        
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="slide-text">
+                            <h1>Fresh from the Savanna</h1>
+                            <p>From our kitchen to your table, bringing you the authentic taste of East Africa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content">
+                        <img src="images/traditional-recipes.jpg" alt="Traditional Recipes" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">                        
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="slide-text">
+                            <h1>Traditional Recipes</h1>
+                            <p>Handed down through generations, prepared with love and respect for our heritage</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="slide-content"> 
+                        <img src="images/warm-hospitality.jpg" alt="Warm Hospitality" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">                        
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="slide-text">
+                            <h1>Warm Hospitality</h1>
+                            <p>Join us for a dining experience that celebrates Kenyan culture and community</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-controls">
+                <button class="slider-btn prev" id="prevBtn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-btn next" id="nextBtn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="slider-dots" id="slider-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+                <span class="dot" data-slide="3"></span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Our Story</h2>
+                        <p>Welcome to Savanna Plate, where we bring the authentic flavors of Kenya to the heart of Nairobi. Our restaurant was born from a passion to share the rich culinary heritage of East Africa with both locals and visitors alike.</p>
+                        
+                        <p>Founded in 2018, Savanna Plate has become a beloved gathering place for those seeking genuine Kenyan cuisine. We source our ingredients from local farmers and markets, ensuring that every dish reflects the true taste of our homeland.</p>
+                        
+                        <p>From the smoky aroma of Nyama Choma to the comforting warmth of Ugali with Sukuma Wiki, our menu celebrates the diversity and richness of Kenyan cooking traditions. Each recipe has been carefully preserved and passed down through generations, now shared with you in our welcoming space.</p>
+                        
+                        <div class="about-features">
+                            <div class="feature">
+                                <img src="images/fresh-from-the-savanna.jpg" style="width: 100% ; height: 50%;" alt="Traditional Kenyan Kitchen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-seedling"></i>
+                            </div>
+                                <h3>Locally Sourced</h3>
+                                <p>Fresh ingredients from local farmers</p>
+                            </div>
+                            <div class="feature">
+                                <img src="images/traditional-recipes.jpg" style="width: 100% ; height: 50%;" alt="Traditional Kenyan Kitchen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                                <h3>Traditional Cooking</h3>
+                                <p>Authentic methods and recipes</p>
+                            </div>
+                            <div class="feature">
+                                <img src="images/community-focused.jpg" style="width:100% ; height: 50%;" alt="Traditional Kenyan Kitchen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-users"></i>
+                            </div>
+                                <h3>Community Focused</h3>
+                                <p>Bringing people together through food</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <img src="images/authentic-kenyan-cuisine.jpg" alt="Traditional Kenyan Kitchen" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-image"></i>
+                            </div>
+                            <p>Traditional Kenyan Kitchen</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Dishes -->
+        <section class="featured-dishes">
+            <div class="container">
+                <h2 class="section-title">Featured Dishes</h2>
+                <div class="dishes-grid">
+                    <div class="dish-card">
+                        <div class="dish-image">
+                            <img src="images/nyama-choma.jpg" alt="Nyama Choma - Grilled meat" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-drumstick-bite"></i>
+                            </div>
+                        </div>
+                        <div class="dish-content">
+                            <h3>Nyama Choma</h3>
+                            <p>Grilled meat marinated in traditional spices</p>
+                            <span class="price">KES 800</span>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-image">
+                            <img src="images/ugali-sukuma.jpg" alt="Ugali with Sukuma Wiki" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-bread-slice"></i>
+                            </div>
+                        </div>
+                        <div class="dish-content">
+                            <h3>Ugali with Sukuma Wiki</h3>
+                            <p>Traditional maize meal with collard greens</p>
+                            <span class="price">KES 350</span>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-image">
+                            <img src="images/tilapia-fish.jpg" alt="Tilapia Fish with Rice" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-fish"></i>
+                            </div>
+                        </div>
+                        <div class="dish-content">
+                            <h3>Tilapia Fish</h3>
+                            <p>Fresh fish served with rice and vegetables</p>
+                            <span class="price">KES 600</span>
+                        </div>
+                    </div>
+                    <div class="dish-card">
+                        <div class="dish-image">
+                            <img src="images/chapati-beef.jpg" alt="Chapati with Beef Stew" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="dish-fallback" style="display: none;">
+                                <i class="fas fa-cookie-bite"></i>
+                            </div>
+                        </div>
+                        <div class="dish-content">
+                            <h3>Chapati with Beef Stew</h3>
+                            <p>Soft flatbread with rich beef stew</p>
+                            <span class="price">KES 450</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta-button">
+                    <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Restaurant Info -->
+        <section class="restaurant-info">
+            <div class="container">
+                <div class="info-grid">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Open 24/7</h3>
+                        <p>We're always here to serve you, day and night</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Nairobi Location</h3>
+                        <p>Conveniently located in the heart of the city</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Easy Reservations</h3>
+                        <p>Call us or book online for your next visit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-utensils"></i>
+                        <span>Savanna Plate</span>
+                    </div>
+                    <p>Bringing authentic Kenyan flavors to Nairobi since 2018. Experience the taste of home with every bite.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.html">Reservations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +254 718 230 650</li>
+                        <li><i class="fas fa-envelope"></i> savanna@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Westlands, Nairobi, Kenya</li>
+                        <li><i class="fas fa-clock"></i> Open 24/7</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Operating Hours</h4>
+                    <ul>
+                        <li>Monday - Sunday</li>
+                        <li>24 Hours Daily</li>
+                        <li>Kitchen: Always Open</li>
+                        <li>Delivery: 6 AM - 11 PM</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Savanna Plate. All rights reserved. | Authentic Kenyan Cuisine in Nairobi</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
