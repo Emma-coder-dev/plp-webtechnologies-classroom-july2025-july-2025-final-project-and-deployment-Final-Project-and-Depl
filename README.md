@@ -1,8 +1,9 @@
-# Kenyan Cuisine Restaurant Website
+# 🍽🍖 SAVANNA PLATE 😋
+## Kenyan Cuisine Restaurant Website
 
 This project is a static website for a Kenyan cuisine restaurant, showcasing authentic dishes, drinks, and the vibrant culture of Kenya. The site is designed for easy navigation and a visually appealing experience.
 
-## Features
+## 🛠Features
 - **Home Page** (`index.html`): Introduction to the restaurant and Kenyan cuisine.
 - **Menu Page** (`menu.html`): Detailed menu with images of popular dishes and drinks.
 - **Contact Page** (`contact.html`): Contact information and a form for inquiries.
@@ -10,7 +11,7 @@ This project is a static website for a Kenyan cuisine restaurant, showcasing aut
 - **Image Gallery**: High-quality images in the `images/` folder representing food, drinks, and ambiance.
 - **Interactive Elements**: JavaScript (`js/script.js`) for dynamic features.
 
-## Folder Structure
+## 📂Folder Structure
 ```
 ├── contact.html
 ├── index.html
@@ -22,6 +23,8 @@ This project is a static website for a Kenyan cuisine restaurant, showcasing aut
 ├── js/
 │   └── script.js
 ```
+## 🚀Live Demo
+[![View Demo](https://img.shields.io/badge/View-Demo-brightgreen?style=for-the-badge)](https://savanna-plate.vercel.app/)
 
 ## How to Use
 1. Clone or download the repository.
